@@ -16,12 +16,18 @@
   }
 }
 
-body {
+/* body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
+  background: linear-gradient(to bottom,
       transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+} */
+
+/* Use layer to over-write */
+
+@layer base {
+  html {
+    @apply bg-red-300 text-white text-lg font-bold;
+
+  }
 }
