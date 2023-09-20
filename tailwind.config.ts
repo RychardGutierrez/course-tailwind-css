@@ -24,6 +24,7 @@ const config: Config = {
       colors: {
         vuejs: '#49e659',
       },
+      fontSize: { base: '1rem' },
     },
   },
   plugins: [],

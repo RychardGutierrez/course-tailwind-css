@@ -24,6 +24,43 @@ export default function Home() {
         a. Non quos reprehenderit quibusdam magnam perspiciatis temporibus
         mollitia facilis veritatis?
       </p>
+      <br />
+      <br />
+      <br />
+      {/* Fonts */}
+      <h1 className="text-9xl no-underline"> Title 1</h1>
+      <h2 className="text-2xl overline decoration-wavy"> Title 2</h2>
+      <h3 className="text-xl underline decoration-red-500 decoration-double underline-offset-8">
+        {' '}
+        Title 3
+      </h3>
+      <h4 className=" italic line-through leading-5"> Title 4</h4>
+      <p className="text-base uppercase truncate">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam odit
+        minima enim maiores doloremque quasi ex. Obcaecati quia dolorem fugit
+        corrupti magni quod mollitia minus deleniti odio laborum. Ratione,
+        nostrum?
+      </p>
+      <p className="text-sm leading-loose capitalize whitespace-nowrap w-1/2">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam odit
+        minima enim maiores doloremque quasi ex. Obcaecati quia dolorem fugit
+        corrupti magni quod mollitia minus deleniti odio laborum. Ratione,
+        nostrum?
+      </p>
+      <p className="text-xs note lowercase text-clip w-1/2 break-words">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam odit
+        minima enim maiores
+        doloremquedoloremquedoloremquedoloremquedoloremquedoloremquedoloremque
+        quasi ex. Obcaecati quia dolorem fugit corrupti magni quod mollitia
+        minus deleniti odio laborum. Ratione, nostrum?
+      </p>
+      <p className="text-xs note lowercase text-clip w-1/2 break-all">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam odit
+        minima enim maiores
+        doloremquedoloremquedoloremquedoloremquedoloremquedoloremquedoloremque
+        quasi ex. Obcaecati quia dolorem fugit corrupti magni quod mollitia
+        minus deleniti odio laborum. Ratione, nostrum?
+      </p>
     </main>
   );
 }

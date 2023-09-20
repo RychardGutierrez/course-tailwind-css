@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -24,10 +26,16 @@
 } */
 
 /* Use layer to over-write */
-
+/* 
 @layer base {
   html {
     @apply bg-red-300 text-white text-lg font-bold;
 
+  }
+} */
+
+@layer base {
+  html {
+    font-family: 'Lato', sans-serif;
   }
 }
