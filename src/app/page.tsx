@@ -61,6 +61,30 @@ export default function Home() {
         quasi ex. Obcaecati quia dolorem fugit corrupti magni quod mollitia
         minus deleniti odio laborum. Ratione, nostrum?
       </p>
+
+      {/* Padding */}
+      <div className="bg-red-300 text-white font-bold p-1">
+        Box with padding
+      </div>
+
+      {/* Margin */}
+      <div className="bg-blue-300 text-white font-bold m-1">
+        Box with margin
+      </div>
+      <div className="container">
+        <div className="w-8/12 h-1/2 bg-sky-400 opacity-20 "></div>
+        <div className="-mt-8 bg-sky-300">-mt-8</div>
+      </div>
+
+      <div className="flex w-full">
+        <div className="w-1/5 h-16 bg-red-300">Sidebar</div>
+        <div className="w-4/5 h-16 bg-green-300">main content</div>
+      </div>
+      <br />
+      <div className="flex flex-col space-y-5">
+        <div className="w-1/5 min-h-screen bg-red-300">Sidebar</div>
+        <div className="w-4/5 h-24 bg-green-300">main content</div>
+      </div>
     </main>
   );
 }

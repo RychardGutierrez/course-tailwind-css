@@ -24,4 +24,10 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 - Colors
 - Customization
 - Typography
-- Spaces & sizes - in progress
+- Spaces & sizes
+- Flex
+- Grids
+
+
+
+Link: https://youtu.be/ft30zcMlFao?si=d7hmFtt0Uswnwe_u
