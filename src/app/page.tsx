@@ -1,90 +1,47 @@
 export default function Home() {
   return (
-    <main className="min-h-screen w-full flex flex-col">
-      <h1 className="text-green-400">Hello worl</h1>
+    <div className="h-screen bg-slate-400">
+      <div className="container mx-auto gap-4">
+        <div className="grid gap-4 lg:grid-cols-3 md:grid-cols-2">
+          <div className="bg-red-400">1</div>
+          <div className="bg-red-400">2</div>
+          <div className="bg-red-400">3</div>
+          <div className="bg-blue-400 col-span-3">4</div>
+          <div className="bg-red-400">5</div>
+          <div className="bg-red-400">6</div>
+        </div>
+        <br></br>
+        <hr />
+        <br></br>
+        <div className="grid gap-4 lg:grid-cols-6 md:grid-cols-2">
+          <div className="bg-red-400 col-start-2 col-span-4">1</div>
+          <div className="bg-red-400 col-start-1 col-end-3">2</div>
+          <div className="bg-red-400 col-end-7">3</div>
+          <div className="bg-blue-400 col-start-1 col-end-7">4</div>
+        </div>
 
-      <h1 className="text-yellow-400">Yellow color</h1>
+        <br></br>
+        <hr />
+        <br></br>
+        <div className="grid gap-4 grid-flow-row auto-cols-auto">
+          <div className="bg-red-400 ">1</div>
+          <div className="bg-red-400 ">2</div>
+          <div className="bg-red-400 ">3</div>
+          <div className="bg-blue-400 ">4</div>
+        </div>
 
-      <h1 className="bg-yellow-400 text-white">bg yellow color</h1>
-
-      <div className="border-8 border-green-400">This is border</div>
-
-      {/* Customer color */}
-      <div className="text-vuejs">customer color vuejs</div>
-
-      <div className="text-[#a2c434]">customer color vuejs 2</div>
-
-      {/* Customer size */}
-      <h1 className="text-sm sm:text-base md:text-3xl">Hello size</h1>
-
-      {/* Customer spacing */}
-      <p className="mt-4">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente
-        incidunt totam commodi quo quibusdam beatae nesciunt nobis eaque ipsum
-        a. Non quos reprehenderit quibusdam magnam perspiciatis temporibus
-        mollitia facilis veritatis?
-      </p>
-      <br />
-      <br />
-      <br />
-      {/* Fonts */}
-      <h1 className="text-9xl no-underline"> Title 1</h1>
-      <h2 className="text-2xl overline decoration-wavy"> Title 2</h2>
-      <h3 className="text-xl underline decoration-red-500 decoration-double underline-offset-8">
-        {' '}
-        Title 3
-      </h3>
-      <h4 className=" italic line-through leading-5"> Title 4</h4>
-      <p className="text-base uppercase truncate">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam odit
-        minima enim maiores doloremque quasi ex. Obcaecati quia dolorem fugit
-        corrupti magni quod mollitia minus deleniti odio laborum. Ratione,
-        nostrum?
-      </p>
-      <p className="text-sm leading-loose capitalize whitespace-nowrap w-1/2">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam odit
-        minima enim maiores doloremque quasi ex. Obcaecati quia dolorem fugit
-        corrupti magni quod mollitia minus deleniti odio laborum. Ratione,
-        nostrum?
-      </p>
-      <p className="text-xs note lowercase text-clip w-1/2 break-words">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam odit
-        minima enim maiores
-        doloremquedoloremquedoloremquedoloremquedoloremquedoloremquedoloremque
-        quasi ex. Obcaecati quia dolorem fugit corrupti magni quod mollitia
-        minus deleniti odio laborum. Ratione, nostrum?
-      </p>
-      <p className="text-xs note lowercase text-clip w-1/2 break-all">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam odit
-        minima enim maiores
-        doloremquedoloremquedoloremquedoloremquedoloremquedoloremquedoloremque
-        quasi ex. Obcaecati quia dolorem fugit corrupti magni quod mollitia
-        minus deleniti odio laborum. Ratione, nostrum?
-      </p>
-
-      {/* Padding */}
-      <div className="bg-red-300 text-white font-bold p-1">
-        Box with padding
+        <br></br>
+        <hr />
+        <br></br>
+        <div className="grid gap-3 grid-rows-3 grid-flow-col">
+          <div className="bg-orange-400 col-span-2">1</div>
+          <div className="bg-red-400 col-span-2">2</div>
+          <div className="bg-red-400 ">3</div>
+          <div className="bg-blue-400 ">4</div>
+          <div className="bg-red-400 ">5</div>
+          <div className="bg-blue-400 ">6</div>
+        </div>
       </div>
-
-      {/* Margin */}
-      <div className="bg-blue-300 text-white font-bold m-1">
-        Box with margin
-      </div>
-      <div className="container">
-        <div className="w-8/12 h-1/2 bg-sky-400 opacity-20 "></div>
-        <div className="-mt-8 bg-sky-300">-mt-8</div>
-      </div>
-
-      <div className="flex w-full">
-        <div className="w-1/5 h-16 bg-red-300">Sidebar</div>
-        <div className="w-4/5 h-16 bg-green-300">main content</div>
-      </div>
-      <br />
-      <div className="flex flex-col space-y-5">
-        <div className="w-1/5 min-h-screen bg-red-300">Sidebar</div>
-        <div className="w-4/5 h-24 bg-green-300">main content</div>
-      </div>
-    </main>
+    </div>
   );
 }
