@@ -27,6 +27,7 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 - Spaces & sizes
 - Flex
 - Grids
+- Layouts
 
 
 
